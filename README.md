@@ -1,4 +1,4 @@
-# 🧪 Mendeleev.css v1.0.0
+# 🧪 Mendeleyev.css v1.0.0
 
 A modern CSS library that brings the **Periodic Table of Elements** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental elements like `titanium`, `uranium`, or `platinum`.
 
