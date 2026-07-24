@@ -73,7 +73,7 @@ This is an open-source monument built for frontend developers and web designers 
 
 *"Because the web deserved Mendeleev, but gave us tomato instead."* 🍅🧪
 
-https://github.com/yagizyagli/mendeleyev.css/actions/runs/30121010092
+[Live Preview] 👉  https://github.com/yagizyagli/mendeleyev.css/actions/runs/30121010092
 
 **Star ⭐️ this repository if you believe the web standards should be more scientific!**
 
