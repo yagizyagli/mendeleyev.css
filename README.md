@@ -1,5 +1,7 @@
 # 🧪 Mendeleev.css v2.0.0 (The Complete Periodic Table)
 
+[Live Preview] 👉  https://github.com/yagizyagli/mendeleyev.css/actions/runs/30121010092
+
 A modern, comprehensive CSS utility library that brings all **118 Elements of the Periodic Table** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `titanium`, `uranium`, or `platinum`.
 
 This project is now fully complete, containing every single element from Hydrogen (`H`) to Oganesson (`Og`), carefully categorized by their scientific chemical properties with vibrant neon glowing effects and realistic metallic gradients.
@@ -73,7 +75,7 @@ This is an open-source monument built for frontend developers and web designers 
 
 *"Because the web deserved Mendeleev, but gave us tomato instead."* 🍅🧪
 
-[Live Preview] 👉  https://github.com/yagizyagli/mendeleyev.css/actions/runs/30121010092
+
 
 **Star ⭐️ this repository if you believe the web standards should be more scientific!**
 
