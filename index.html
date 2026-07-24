@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendeleev.css - Live Demo</title>
+    <!-- Kendi yazdığın kütüphaneyi CDN üzerinden sayfaya bağlıyoruz -->
+    <link rel="stylesheet" href="mendeleev.css">
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 { margin-bottom: 30px; }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .card {
+            padding: 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border: 1px solid #30363d;
+        }
+        .text-card {
+            background: #161b22;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="mndlv-bg-Au" style="padding: 15px; border-radius: 8px; display: inline-block;">🧪 Mendeleev.css Live Showcase</h1>
+    <p>A CSS library that brings all 118 elements into web design.</p>
+    
+    <hr style="border: 1px solid #30363d; margin: 40px 0;">
+
+    <h2>☢️ Radioactive & Noble Gases (Glow Effects)</h2>
+    <div class="grid" style="margin-bottom: 40px;">
+        <div class="text-card"><span class="mndlv-U">Uranium (U)</span></div>
+        <div class="text-card"><span class="mndlv-Pu">Plutonium (Pu)</span></div>
+        <div class="text-card"><span class="mndlv-Ne">Neon (Ne)</span></div>
+        <div class="text-card"><span class="mndlv-He">Helium (He)</span></div>
+    </div>
+
+    <h2>🪙 Transition Metals (Metallic Gradients)</h2>
+    <div class="grid">
+        <div class="card mndlv-bg-Ti">Titanium (Ti)</div>
+        <div class="card mndlv-bg-Pt">Platinum (Pt)</div>
+        <div class="card mndlv-bg-Au">Gold (Au)</div>
+        <div class="card mndlv-bg-Cu">Copper (Cu)</div>
+        <div class="card mndlv-bg-Bi">Bismuth (Bi)</div>
+    </div>
+
+</body>
+</html>
