@@ -1,4 +1,4 @@
-# 🧪 Mendeleev.css v3.0.0 (The Clean Cascade Edition)
+# 🧪 Mendeleyev.css v3.0.0 (The Clean Cascade Edition)
 
 ## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](https://github.io)
 
@@ -24,10 +24,10 @@ Simply add this single line inside the `<head>` tag of your HTML file:
 ```
 
 ### Method 2: Manual Setup (Manuel Yükleme)
-1. Download the `mendeleev.css` file from this repository.
+1. Download the `mendeleyev.css` file from this repository.
 2. Link it inside your HTML directory:
 ```html
-<link rel="stylesheet" href="path/to/mendeleev.css">
+<link rel="stylesheet" href="path/to/mendeleyev.css">
 ```
 
 ---
@@ -76,7 +76,7 @@ Every class name uses official chemical symbols for code weight efficiency and l
 ## 🤝 Contributing & Feedback
 This is an open-source monument built for frontend developers and web designers who appreciate chemistry and clean UI architecture. Feel free to fork, propose improvements to gradients, or suggest additional effects via Pull Requests!
 
-*"Because the web deserved Mendeleev, but gave us tomato instead."* 🍅🧪
+*"Because the web deserved Mendeleyev, but gave us tomato instead."* 🍅🧪
 
 **Star ⭐️ this repository if you believe the web standards should be more scientific!**
 
