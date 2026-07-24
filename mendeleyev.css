@@ -18,144 +18,145 @@
 /* ==========================================================================
    1. ALKALI METALS (Vibrant Orange and Red Tones)
    ========================================================================== */
-.mndlv-H  { color: #ffffff !important; } /* Hydrogen - Non-metal but in 1A group */
-.mndlv-Li { color: #ffab91 !important; } /* Lithium */
-.mndlv-Na { color: #ff8a65 !important; } /* Sodium */
-.mndlv-K  { color: #ff7043 !important; } /* Potassium */
-.mndlv-Rb { color: #ff5722 !important; } /* Rubidium */
-.mndlv-Cs { color: #f4511e !important; } /* Cesium */
-.mndlv-Fr { color: #d84315 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Francium (Radioactive) */
+[class*="mndlv-H"]  { color: #ffffff; } /* Hydrogen */
+[class*="mndlv-Li"] { color: #ffab91; } /* Lithium */
+[class*="mndlv-Na"] { color: #ff8a65; } /* Sodium */
+[class*="mndlv-K"]  { color: #ff7043; } /* Potassium */
+[class*="mndlv-Rb"] { color: #ff5722; } /* Rubidium */
+[class*="mndlv-Cs"] { color: #f4511e; } /* Cesium */
+[class*="mndlv-Fr"] { color: #d84315; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Francium */
 
 /* ==========================================================================
    2. ALKALINE EARTH METALS (Bright Yellow and Gold Tones)
    ========================================================================== */
-.mndlv-Be { color: #fff59d !important; } /* Beryllium */
-.mndlv-Mg { color: #fff176 !important; } /* Magnesium */
-.mndlv-Ca { color: #ffee58 !important; } /* Calcium */
-.mndlv-Sr { color: #ffeb3b !important; } /* Strontium */
-.mndlv-Ba { color: #fdd835 !important; } /* Barium */
-.mndlv-Ra { color: #fbc02d !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); } /* Radium (Radioactive) */
+[class*="mndlv-Be"] { color: #fff59d; } /* Beryllium */
+[class*="mndlv-Mg"] { color: #fff176; } /* Magnesium */
+[class*="mndlv-Ca"] { color: #ffee58; } /* Calcium */
+[class*="mndlv-Sr"] { color: #ffeb3b; } /* Strontium */
+[class*="mndlv-Ba"] { color: #fdd835; } /* Barium */
+[class*="mndlv-Ra"] { color: #fbc02d; text-shadow: 0 0 8px var(--mndlv-radioactive-green); } /* Radium */
 
 /* ==========================================================================
    3. TRANSITION METALS (Realistic Metallic Gradients)
    ========================================================================== */
-.mndlv-bg-Sc { background: linear-gradient(135deg, #e0e0e0, #b0bec5) !important; color: #212121 !important; } /* Scandium */
-.mndlv-bg-Ti { background: linear-gradient(135deg, #f5f7fa, #b0bec5, #607d8b) !important; color: #212121 !important; } /* Titanium */
-.mndlv-bg-V  { background: linear-gradient(135deg, #cfd8dc, #90a4ae) !important; color: #212121 !important; } /* Vanadium */
-.mndlv-bg-Cr { background: linear-gradient(135deg, #ffffff, #aeaeae, #212121) !important; color: #212121 !important; } /* Chromium */
-.mndlv-bg-Mn { background: linear-gradient(135deg, #eceff1, #b0bec5) !important; color: #212121 !important; } /* Manganese */
-.mndlv-bg-Fe { background: linear-gradient(135deg, #757575, #424242, #212121) !important; color: #ffffff !important; } /* Iron */
-.mndlv-bg-Co { background: linear-gradient(135deg, #b3e5fc, #0288d1) !important; color: #ffffff !important; } /* Cobalt (Bluish Metal) */
-.mndlv-bg-Ni { background: linear-gradient(135deg, #ded6c5, #bcaaa4, #705d56) !important; color: #ffffff !important; } /* Nickel */
-.mndlv-bg-Cu { background: linear-gradient(135deg, #e59866, #b87333, #6e3a07) !important; color: #ffffff !important; } /* Copper */
-.mndlv-bg-Zn { background: linear-gradient(135deg, #d6dbdf, #85929e) !important; color: #212121 !important; } /* Zinc */
-.mndlv-bg-Y  { background: linear-gradient(135deg, #eaeded, #a6acaf) !important; color: #212121 !important; } /* Yttrium */
-.mndlv-bg-Zr { background: linear-gradient(135deg, #f4f6f7, #bdc3c7) !important; color: #212121 !important; } /* Zirconium */
-.mndlv-bg-Nb { background: linear-gradient(135deg, #ebf5fb, #a9dfbf) !important; color: #212121 !important; } /* Niobium */
-.mndlv-bg-Mo { background: linear-gradient(135deg, #e5e8e8, #7cc576) !important; color: #212121 !important; } /* Molybdenum */
-.mndlv-bg-Tc { background: linear-gradient(135deg, #d5dbdb, #95a5a6) !important; color: #212121 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Technetium (Radioactive) */
-.mndlv-bg-Ru { background: linear-gradient(135deg, #ebedef, #7f8c8d) !important; color: #ffffff !important; } /* Ruthenium */
-.mndlv-bg-Rh { background: linear-gradient(135deg, #f2f3f4, #b2babb) !important; color: #212121 !important; } /* Rhodium */
-.mndlv-bg-Pd { background: linear-gradient(135deg, #f8f9f9, #ccd1d1) !important; color: #212121 !important; } /* Palladium */
-.mndlv-bg-Ag { background: linear-gradient(135deg, #ffffff, #e0e0e0, #9e9e9e) !important; color: #212121 !important; } /* Silver */
-.mndlv-bg-Cd { background: linear-gradient(135deg, #eaecee, #abb2b9) !important; color: #212121 !important; } /* Cadmium */
-.mndlv-bg-Hf { background: linear-gradient(135deg, #f4f6f6, #9a7d0a) !important; color: #ffffff !important; } /* Hafnium */
-.mndlv-bg-Ta { background: linear-gradient(135deg, #fdfefe, #7b7d7d) !important; color: #ffffff !important; } /* Tantalum */
-.mndlv-bg-W  { background: linear-gradient(135deg, #566573, #2c3e50) !important; color: #ffffff !important; } /* Tungsten (Heavy Metal) */
-.mndlv-bg-Re { background: linear-gradient(135deg, #f2f4f4, #616a6b) !important; color: #ffffff !important; } /* Rhenium */
-.mndlv-bg-Os { background: linear-gradient(135deg, #ebf5fb, #2e4053) !important; color: #ffffff !important; } /* Osmium */
-.mndlv-bg-Ir { background: linear-gradient(135deg, #f7f9f9, #515a5a) !important; color: #ffffff !important; } /* Iridium */
-.mndlv-bg-Pt { background: linear-gradient(135deg, #ffffff, #cfd8dc, #455a64) !important; color: #212121 !important; } /* Platinum */
-.mndlv-bg-Au { background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7) !important; color: #212121 !important; } /* Gold */
-.mndlv-bg-Hg { background: linear-gradient(135deg, #eceff1, #cfd8dc, #263238) !important; color: #ffffff !important; } /* Mercury */
-.mndlv-bg-Rf { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Rutherfordium */
-.mndlv-bg-Db { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Dubnium */
-.mndlv-bg-Sg { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Seaborgium */
-.mndlv-bg-Bh { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Bohrium */
-.mndlv-bg-Hs { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Hassium */
-.mndlv-bg-Mt { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Meitnerium */
-.mndlv-bg-Ds { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Darmstadtium */
-.mndlv-bg-Rg { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Roentgenium */
-.mndlv-bg-Cn { background: linear-gradient(135deg, #212121, #424242) !important; color: #ff3333 !important; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Copernicium */
+[class*="mndlv-bg-Sc"] { background: linear-gradient(135deg, #e0e0e0, #b0bec5); color: #212121; } /* Scandium */
+[class*="mndlv-bg-Ti"] { background: linear-gradient(135deg, #f5f7fa, #b0bec5, #607d8b); color: #212121; } /* Titanium */
+[class*="mndlv-bg-V"]  { background: linear-gradient(135deg, #cfd8dc, #90a4ae); color: #212121; } /* Vanadium */
+[class*="mndlv-bg-Cr"] { background: linear-gradient(135deg, #ffffff, #aeaeae, #212121); color: #212121; } /* Chromium */
+[class*="mndlv-bg-Mn"] { background: linear-gradient(135deg, #eceff1, #b0bec5); color: #212121; } /* Manganese */
+[class*="mndlv-bg-Fe"] { background: linear-gradient(135deg, #757575, #424242, #212121); color: #ffffff; } /* Iron */
+[class*="mndlv-bg-Co"] { background: linear-gradient(135deg, #b3e5fc, #0288d1); color: #ffffff; } /* Cobalt */
+[class*="mndlv-bg-Ni"] { background: linear-gradient(135deg, #ded6c5, #bcaaa4, #705d56); color: #ffffff; } /* Nickel */
+[class*="mndlv-bg-Cu"] { background: linear-gradient(135deg, #e59866, #b87333, #6e3a07); color: #ffffff; } /* Copper */
+[class*="mndlv-bg-Zn"] { background: linear-gradient(135deg, #d6dbdf, #85929e); color: #212121; } /* Zinc */
+[class*="mndlv-bg-Y"]  { background: linear-gradient(135deg, #eaeded, #a6acaf); color: #212121; } /* Yttrium */
+[class*="mndlv-bg-Zr"] { background: linear-gradient(135deg, #f4f6f7, #bdc3c7); color: #212121; } /* Zirconium */
+[class*="mndlv-bg-Nb"] { background: linear-gradient(135deg, #ebf5fb, #a9dfbf); color: #212121; } /* Niobium */
+[class*="mndlv-bg-Mo"] { background: linear-gradient(135deg, #e5e8e8, #7cc576); color: #212121; } /* Molybdenum */
+[class*="mndlv-bg-Tc"] { background: linear-gradient(135deg, #d5dbdb, #95a5a6); color: #212121; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Technetium */
+[class*="mndlv-bg-Ru"] { background: linear-gradient(135deg, #ebedef, #7f8c8d); color: #ffffff; } /* Ruthenium */
+[class*="mndlv-bg-Rh"] { background: linear-gradient(135deg, #f2f3f4, #b2babb); color: #212121; } /* Rhodium */
+[class*="mndlv-bg-Pd"] { background: linear-gradient(135deg, #f8f9f9, #ccd1d1); color: #212121; } /* Palladium */
+[class*="mndlv-bg-Ag"] { background: linear-gradient(135deg, #ffffff, #e0e0e0, #9e9e9e); color: #212121; } /* Silver */
+[class*="mndlv-bg-Cd"] { background: linear-gradient(135deg, #eaecee, #abb2b9); color: #212121; } /* Cadmium */
+[class*="mndlv-bg-Hf"] { background: linear-gradient(135deg, #f4f6f6, #9a7d0a); color: #ffffff; } /* Hafnium */
+[class*="mndlv-bg-Ta"] { background: linear-gradient(135deg, #fdfefe, #7b7d7d); color: #ffffff; } /* Tantalum */
+[class*="mndlv-bg-W"]  { background: linear-gradient(135deg, #566573, #2c3e50); color: #ffffff; } /* Tungsten */
+[class*="mndlv-bg-Re"] { background: linear-gradient(135deg, #f2f4f4, #616a6b); color: #ffffff; } /* Rhenium */
+[class*="mndlv-bg-Os"] { background: linear-gradient(135deg, #ebf5fb, #2e4053); color: #ffffff; } /* Osmium */
+[class*="mndlv-bg-Ir"] { background: linear-gradient(135deg, #f7f9f9, #515a5a); color: #ffffff; } /* Iridium */
+[class*="mndlv-bg-Pt"] { background: linear-gradient(135deg, #ffffff, #cfd8dc, #455a64); color: #212121; } /* Platinum */
+[class*="mndlv-bg-Au"] { background: linear-gradient(135deg, #bf953f, #fcf6ba, #b38728, #fbf5b7); color: #212121; } /* Gold */
+[class*="mndlv-bg-Hg"] { background: linear-gradient(135deg, #eceff1, #cfd8dc, #263238); color: #ffffff; } /* Mercury */
+[class*="mndlv-bg-Rf"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Rutherfordium */
+[class*="mndlv-bg-Db"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Dubnium */
+[class*="mndlv-bg-Sg"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Seaborgium */
+[class*="mndlv-bg-Bh"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Bohrium */
+[class*="mndlv-bg-Hs"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Hassium */
+[class*="mndlv-bg-Mt"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Meitnerium */
+[class*="mndlv-bg-Ds"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Darmstadtium */
+[class*="mndlv-bg-Rg"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Roentgenium */
+[class*="mndlv-bg-Cn"] { background: linear-gradient(135deg, #212121, #424242); color: #ff3333; text-shadow: 0 0 5px var(--mndlv-radioactive-green); } /* Copernicium */
 
 /* ==========================================================================
    4. NON-METALS & METALLOIDS (Elemental Chemical Colors)
    ========================================================================== */
-.mndlv-B  { color: #ffeb3b !important; } /* Boron */
-.mndlv-C  { color: #1a1a1a !important; } /* Carbon */
-.mndlv-N  { color: #90caf9 !important; } /* Nitrogen */
-.mndlv-O  { color: #bbdefb !important; } /* Oxygen */
-.mndlv-F  { color: #a7ffeb !important; } /* Fluorine */
-.mndlv-Si { color: #b0bec5 !important; } /* Silicon */
-.mndlv-P  { color: #e8f5e9 !important; text-shadow: 0 0 4px #e8f5e9; } /* Phosphorus */
-.mndlv-S  { color: #ffff33 !important; } /* Sulfur */
-.mndlv-Cl { color: #d4e6a5 !important; } /* Chlorine */
-.mndlv-As { color: #d5f5e3 !important; } /* Arsenic */
-.mndlv-Se { color: #edbb99 !important; } /* Selenium */
-.mndlv-Br { color: #7b241c !important; } /* Bromine */
-.mndlv-Te { color: #f9e79f !important; } /* Tellurium */
-.mndlv-I  { color: #4a235a !important; } /* Iodine */
-.mndlv-At { color: #5b2c6f !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Astatine */
+[class*="mndlv-B"]  { color: #ffeb3b; } /* Boron */
+[class*="mndlv-C"]  { color: #1a1a1a; } /* Carbon */
+[class*="mndlv-N"]  { color: #90caf9; } /* Nitrogen */
+[class*="mndlv-O"]  { color: #bbdefb; } /* Oxygen */
+[class*="mndlv-F"]  { color: #a7ffeb; } /* Fluorine */
+[class*="mndlv-Si"] { color: #b0bec5; } /* Silicon */
+[class*="mndlv-P"]  { color: #e8f5e9; text-shadow: 0 0 4px #e8f5e9; } /* Phosphorus */
+[class*="mndlv-S"]  { color: #ffff33; } /* Sulfur */
+[class*="mndlv-Cl"] { color: #d4e6a5; } /* Chlorine */
+[class*="mndlv-As"] { color: #d5f5e3; } /* Arsenic */
+[class*="mndlv-Se"] { color: #edbb99; } /* Selenium */
+[class*="mndlv-Br"] { color: #7b241c; } /* Bromine */
+[class*="mndlv-Te"] { color: #f9e79f; } /* Tellurium */
+[class*="mndlv-I"]  { color: #4a235a; } /* Iodine */
+[class*="mndlv-At"] { color: #5b2c6f; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Astatine */
 
 /* Post-transition Metals (Weak Metals) */
-.mndlv-Al { color: #d5dbdb !important; } /* Aluminum */
-.mndlv-Ga { color: #a9dfbf !important; } /* Gallium */
-.mndlv-Ge { color: #f5cbf7 !important; } /* Germanium */
-.mndlv-In { color: #f9ebd2 !important; } /* Indium */
-.mndlv-Sn { color: #d7dbdd !important; } /* Tin */
-.mndlv-Sb { color: #fadbd8 !important; } /* Antimony */
-.mndlv-Tl { color: #e8daef !important; } /* Thallium */
-.mndlv-Pb { color: #566573 !important; } /* Lead */
-.mndlv-Bi { background: linear-gradient(45deg, #ff8a80, #ea80fc, #8c9eff, #80d8ff, #b9f6ca) !important; color: #212121 !important; } /* Bismuth */
-.mndlv-Nh { color: #e5e7e9 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Nihonium */
-.mndlv-Fl { color: #e5e7e9 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Flerovium */
-.mndlv-Mc { color: #e5e7e9 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Moscovium */
-.mndlv-Lv { color: #e5e7e9 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Livermoryum */
-.mndlv-Ts { color: #e5e7e9 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Tennessine */
+[class*="mndlv-Al"] { color: #d5dbdb; } /* Aluminum */
+[class*="mndlv-Ga"] { color: #a9dfbf; } /* Gallium */
+[class*="mndlv-Ge"] { color: #f5cbf7; } /* Germanium */
+[class*="mndlv-In"] { color: #f9ebd2; } /* Indium */
+[class*="mndlv-Sn"] { color: #d7dbdd; } /* Tin */
+[class*="mndlv-Sb"] { color: #fadbd8; } /* Antimony */
+[class*="mndlv-Tl"] { color: #e8daef; } /* Thallium */
+[class*="mndlv-Pb"] { color: #566573; } /* Lead */
+[class*="mndlv-Bi"] { background: linear-gradient(45deg, #ff8a80, #ea80fc, #8c9eff, #80d8ff, #b9f6ca); color: #212121; } /* Bismuth */
+[class*="mndlv-Nh"] { color: #e5e7e9; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Nihonium */
+[class*="mndlv-Fl"] { color: #e5e7e9; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Flerovium */
+[class*="mndlv-Mc"] { color: #e5e7e9; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Moscovium */
+[class*="mndlv-Lv"] { color: #e5e7e9; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Livermoryum */
+[class*="mndlv-Ts"] { color: #e5e7e9; text-shadow: 0 0 4px var(--mndlv-radioactive-green); } /* Tennessine */
+
 /* ==========================================================================
-   5. NOBLE GASES (Gas Glowing Neon Effects)
+   5. NOBLE GASES (Gas Glowing Neon Effects - No !important tags)
    ========================================================================== */
-.mndlv-He { color: #ffb300 !important; text-shadow: 0 0 10px #ffb300; } /* Helium */
-.mndlv-Ne { color: #ff3333 !important; text-shadow: 0 0 12px #ff3333, 0 0 25px #ff3333; } /* Neon */
-.mndlv-Ar { color: #e040fb !important; text-shadow: 0 0 10px #e040fb, 0 0 20px #e040fb; } /* Argon */
-.mndlv-Kr { color: #ffff00 !important; text-shadow: 0 0 8px #ffff00; } /* Krypton */
-.mndlv-Xe { color: #e0f7fa !important; text-shadow: 0 0 15px #80deea; } /* Xenon */
-.mndlv-Rn { color: #eceff1 !important; text-shadow: 0 0 12px var(--mndlv-radioactive-emerald); } /* Radon */
-.mndlv-Og { color: #d5dbdb !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); } /* Oganesson */
+[class*="mndlv-He"] { color: #ffb300; text-shadow: 0 0 10px #ffb300; } /* Helium */
+[class*="mndlv-Ne"] { color: #ff3333; text-shadow: 0 0 12px #ff3333, 0 0 25px #ff3333; } /* Neon */
+[class*="mndlv-Ar"] { color: #e040fb; text-shadow: 0 0 10px #e040fb, 0 0 20px #e040fb; } /* Argon */
+[class*="mndlv-Kr"] { color: #ffff00; text-shadow: 0 0 8px #ffff00; } /* Krypton */
+[class*="mndlv-Xe"] { color: #e0f7fa; text-shadow: 0 0 15px #80deea; } /* Xenon */
+[class*="mndlv-Rn"] { color: #eceff1; text-shadow: 0 0 12px var(--mndlv-radioactive-emerald); } /* Radon */
+[class*="mndlv-Og"] { color: #d5dbdb; text-shadow: 0 0 8px var(--mndlv-radioactive-green); } /* Oganesson */
 
 /* ==========================================================================
    6. LANTHANIDES & ACTINIDES (Rare Earth Elements)
    ========================================================================== */
 /* Lanthanides */
-.mndlv-La { color: #f4ecf7 !important; } .mndlv-Ce { color: #f5eeeb !important; }
-.mndlv-Pr { color: #ebf5fb !important; } .mndlv-Nd { color: #e8f8f5 !important; }
-.mndlv-Pm { color: #eaf2f8 !important; text-shadow: 0 0 4px var(--mndlv-radioactive-green); }
-.mndlv-Sm { color: #fef9e7 !important; } .mndlv-Eu { color: #fdf2e9 !important; }
-.mndlv-Gd { color: #f4f6f7 !important; } .mndlv-Tb { color: #fdfefe !important; }
-.mndlv-Dy { color: #f2f4f4 !important; } .mndlv-Ho { color: #fcf3cf !important; }
-.mndlv-Er { color: #fadbd8 !important; } .mndlv-Tm { color: #e8daef !important; }
-.mndlv-Yb { color: #d5f5e3 !important; } .mndlv-Lu { color: #eaf2f8 !important; }
+[class*="mndlv-La"] { color: #f4ecf7; } [class*="mndlv-Ce"] { color: #f5eeeb; }
+[class*="mndlv-Pr"] { color: #ebf5fb; } [class*="mndlv-Nd"] { color: #e8f8f5; }
+[class*="mndlv-Pm"] { color: #eaf2f8; text-shadow: 0 0 4px var(--mndlv-radioactive-green); }
+[class*="mndlv-Sm"] { color: #fef9e7; } [class*="mndlv-Eu"] { color: #fdf2e9; }
+[class*="mndlv-Gd"] { color: #f4f6f7; } [class*="mndlv-Tb"] { color: #fdfefe; }
+[class*="mndlv-Dy"] { color: #f2f4f4; } [class*="mndlv-Ho"] { color: #fcf3cf; }
+[class*="mndlv-Er"] { color: #fadbd8; } [class*="mndlv-Tm"] { color: #e8daef; }
+[class*="mndlv-Yb"] { color: #d5f5e3; } [class*="mndlv-Lu"] { color: #eaf2f8; }
 
 /* Actinides (Heavy Radioactive Elements - Green Glow Effects) */
-.mndlv-Ac { color: #e5e7e9 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Th { color: #ff9100 !important; text-shadow: 0 0 10px #ff9100; } /* Thorium */
-.mndlv-Pa { color: #b2babb !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-U  { color: var(--mndlv-radioactive-green) !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green), 0 0 18px var(--mndlv-radioactive-green); } /* Uranium */
-.mndlv-Np { color: #a6acaf !important; text-shadow: 0 0 8px var(--mndlv-radioactive-emerald); }
-.mndlv-Pu { color: var(--mndlv-radioactive-emerald) !important; text-shadow: 0 0 8px var(--mndlv-radioactive-emerald), 0 0 18px var(--mndlv-radioactive-emerald); } /* Plutonium */
-.mndlv-Am { color: #95a5a6 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Cm { color: #7f8c8d !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Bk { color: #bdc3c7 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Cf { color: #cacfd2 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Es { color: #d7dbdd !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Fm { color: #f2f3f4 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Md { color: #ffffff !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-No { color: #f8f9f9 !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
-.mndlv-Lr { color: #ebedef !important; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Ac"] { color: #e5e7e9; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Th"] { color: #ff9100; text-shadow: 0 0 10px #ff9100; } /* Thorium */
+[class*="mndlv-Pa"] { color: #b2babb; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-U"]  { color: var(--mndlv-radioactive-green); text-shadow: 0 0 8px var(--mndlv-radioactive-green), 0 0 18px var(--mndlv-radioactive-green); } /* Uranium */
+[class*="mndlv-Np"] { color: #a6acaf; text-shadow: 0 0 8px var(--mndlv-radioactive-emerald); }
+[class*="mndlv-Pu"] { color: var(--mndlv-radioactive-emerald); text-shadow: 0 0 8px var(--mndlv-radioactive-emerald), 0 0 18px var(--mndlv-radioactive-emerald); } /* Plutonium */
+[class*="mndlv-Am"] { color: #95a5a6; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Cm"] { color: #7f8c8d; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Bk"] { color: #bdc3c7; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Cf"] { color: #cacfd2; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Es"] { color: #d7dbdd; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Fm"] { color: #f2f3f4; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Md"] { color: #ffffff; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-No"] { color: #f8f9f9; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
+[class*="mndlv-Lr"] { color: #ebedef; text-shadow: 0 0 8px var(--mndlv-radioactive-green); }
 
 /* ==========================================================================
    🔬 END OF PERIODIC TABLE
    ========================================================================== 
    "Because the web deserved Mendeleev, but gave us tomato instead."
-   Created with passion by yagizyagli. Open-source forever. 🚀
+   Created with passion by yagizyagli. Open-source forever. v3.0.0 🚀
    ========================================================================== */
