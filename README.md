@@ -1,10 +1,15 @@
-# 🧪 Mendeleev.css v2.0.0 (The Complete Periodic Table)
+# 🧪 Mendeleev.css v3.0.0 (The Clean Cascade Edition)
 
-[Live Preview] 👉  https://github.com/yagizyagli/mendeleyev.css/actions/runs/30121010092
+## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](https://github.io)
 
-A modern, comprehensive CSS utility library that brings all **118 Elements of the Periodic Table** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `titanium`, `uranium`, or `platinum`.
+A modern, comprehensive, and **cascade-friendly** CSS utility library that brings all **118 Elements of the Periodic Table** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `titanium`, `uranium`, or `platinum`.
 
-This project is now fully complete, containing every single element from Hydrogen (`H`) to Oganesson (`Og`), carefully categorized by their scientific chemical properties with vibrant neon glowing effects and realistic metallic gradients.
+---
+
+## ⚡ What's New in v3.0.0?
+*   🚫 **Zero `!important` Tags:** Completely refactored to respect CSS specificity rules. You can now override element colors smoothly in your custom stylesheets.
+*   🎯 **Attribute Matching Selectors:** Shifted to dynamic attribute matching `[class*="mndlv-"]` to boost selector score while maintaining native CSS hierarchy.
+*   🌐 **GitHub Pages Live Showcase:** Real-time visual demo added so you can check out neon glows and gradients instantly.
 
 ---
 
@@ -13,7 +18,7 @@ This project is now fully complete, containing every single element from Hydroge
 You can easily implement this library into your web projects via the methods below:
 
 ### Method 1: Direct CDN Link (En Hızlı Yöntem)
-Simply add this single line inside the `<head>` tag of your HTML file. It serves the production-ready code directly from the global cloud network:
+Simply add this single line inside the `<head>` tag of your HTML file:
 ```html
 <link rel="stylesheet" href="https://jsdelivr.net">
 ```
@@ -28,8 +33,6 @@ Simply add this single line inside the `<head>` tag of your HTML file. It serves
 ---
 
 ## 🎨 Creative Code Examples (Kod Örnekleri)
-
-Once included, you can use the predefined, highly optimized utility classes anywhere in your HTML code:
 
 ### 1. Radioactive Glowing Elements (Parlayan Neon Metin Efektleri)
 ```html
@@ -59,11 +62,11 @@ Once included, you can use the predefined, highly optimized utility classes anyw
 
 ## 🔬 Periodic Table Group Classes (Tüm Element Grupları)
 
-Every class name is explicitly designed using its official chemical symbol for extreme code simplicity and lightweight performance:
+Every class name uses official chemical symbols for code weight efficiency and lightning-fast implementation:
 
-*   **Alkali Metals (1A Group):** `.mndlv-H`, `.mndlv-Li`, `.mndlv-Na`, `.mndlv-K`, `.mndlv-Rb`, `.mndlv-Cs`, `.mndlv-Fr` (Radioactive)
-*   **Alkaline Earth Metals (2A Group):** `.mndlv-Be`, `.mndlv-Mg`, `.mndlv-Ca`, `.mndlv-Sr`, `.mndlv-Ba`, `.mndlv-Ra` (Radioactive)
-*   **Transition Metals (Gradients):** From Titanium `.mndlv-bg-Ti` and Gold `.mndlv-bg-Au` to the liquid Mercury `.mndlv-bg-Hg` (38 elements total)
+*   **Alkali Metals (1A Group):** `.mndlv-H`, `.mndlv-Li`, `.mndlv-Na`, `.mndlv-K`, `.mndlv-Rb`, `.mndlv-Cs`, `.mndlv-Fr`
+*   **Alkaline Earth Metals (2A Group):** `.mndlv-Be`, `.mndlv-Mg`, `.mndlv-Ca`, `.mndlv-Sr`, `.mndlv-Ba`, `.mndlv-Ra`
+*   **Transition Metals (Gradients):** From Titanium `.mndlv-bg-Ti` and Gold `.mndlv-bg-Au` to liquid Mercury `.mndlv-bg-Hg` (38 elements total)
 *   **Noble Gases (Neon Glows):** `.mndlv-He`, `.mndlv-Ne`, `.mndlv-Ar`, `.mndlv-Kr`, `.mndlv-Xe`, `.mndlv-Rn`, `.mndlv-Og`
 *   **Lanthanides & Actinides (Heavy Glows):** Rare earth elements including Uranium `.mndlv-U` and Plutonium `.mndlv-Pu`
 *   **Non-Metals & Metalloids:** Carbon `.mndlv-C`, Sulfur `.mndlv-S`, Silicon `.mndlv-Si` and other organic building blocks.
@@ -74,8 +77,6 @@ Every class name is explicitly designed using its official chemical symbol for e
 This is an open-source monument built for frontend developers and web designers who appreciate chemistry and clean UI architecture. Feel free to fork, propose improvements to gradients, or suggest additional effects via Pull Requests!
 
 *"Because the web deserved Mendeleev, but gave us tomato instead."* 🍅🧪
-
-
 
 **Star ⭐️ this repository if you believe the web standards should be more scientific!**
 
