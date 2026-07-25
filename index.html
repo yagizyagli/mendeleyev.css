@@ -3,63 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mendeleyev.css - Live Demo</title>
+    <title>Mendeleyev.css — Official Interactive Showcase</title>
     
-    <link rel="stylesheet" href="mendeleyev.css">
+    <!-- DOĞRUDAN SENİN JSDELIVR CDN LİNKİN -->
+    <link rel="stylesheet" href="https://jsdelivr.net">
+    
     <style>
+        :root {
+            --bg: #0b1329;
+            --surface: #1e293b;
+            --border: rgba(255, 255, 255, 0.1);
+        }
         body {
-            background-color: #0d1117;
-            color: #c9d1d9;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-            padding: 40px;
+            background-color: var(--bg);
+            color: #f8fafc;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 60px 20px;
+            margin: 0;
             text-align: center;
+            -webkit-font-smoothing: antialiased;
         }
-        h1 { margin-bottom: 30px; }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
+        .container { max-width: 1000px; margin: 0 auto; }
+        h1 { font-size: 2.8rem; margin-bottom: 8px; font-weight: 800; color: #fff; letter-spacing: -0.025em; }
+        p.subtitle { color: #94a3b8; margin-bottom: 20px; font-size: 1.15rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        
+        #info-display {
+            background: var(--surface);
+            padding: 14px 28px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-bottom: 50px;
+            font-weight: 600;
+            border: 1px solid var(--border);
+            color: #38bdf8;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        .card {
-            padding: 20px;
-            border-radius: 8px;
+        
+        .element-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+
+        /* Butonların kütüphane renklerini ezmesini engelleyen profesyonel stil */
+        button.element-box {
+            width: 100px;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             font-weight: bold;
-            font-size: 1.2rem;
-            border: 1px solid #30363d;
+            border-radius: 16px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+            border: 1px solid var(--border);
+            outline: none;
+            cursor: pointer;
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+            background-color: var(--surface); 
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
         }
-        .text-card {
-            background: #161b22;
-            padding: 20px;
-            border-radius: 8px;
-            font-size: 1.2rem;
+        
+        /* Kütüphaneden gelen background-image ve özel parlamaları koru */
+        button.element-box[class*="mndlv-"] {
+            background-image: inherit;
         }
+        
+        button.element-box:hover {
+            transform: scale(1.08);
+        }
+        
+        button.element-box:active {
+            transform: scale(0.95);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        
+        .symbol { font-size: 1.8rem; pointer-events: none; }
+        
+        pre { background: #111827; color: #f3f4f6; padding: 20px; border-radius: 12px; text-align: left; overflow-x: auto; font-family: monospace; border: 1px solid var(--border); }
     </style>
 </head>
 <body>
 
-    <h1 class="mndlv-bg-Au" style="padding: 15px; border-radius: 8px; display: inline-block;">🧪 Mendeleev.css Live Showcase</h1>
-    <p>A CSS library that brings all 118 elements into web design.</p>
-    
-    <hr style="border: 1px solid #30363d; margin: 40px 0;">
+    <div class="container">
+        <h1>Mendeleyev.css 🧪</h1>
+        <p class="subtitle">Because the web deserved a periodic table but gave us tomato. Bring chemical elements, metallic gradients, and radioactive glows directly into your UI with pure CSS.</p>
+        
+        <div id="info-display">Click any element below to test its native library style!</div>
 
-    <h2>☢️ Radioactive & Noble Gases (Glow Effects)</h2>
-    <div class="grid" style="margin-bottom: 40px;">
-        <div class="text-card"><span class="mndlv-U">Uranium (U)</span></div>
-        <div class="text-card"><span class="mndlv-Pu">Plutonium (Pu)</span></div>
-        <div class="text-card"><span class="mndlv-Ne">Neon (Ne)</span></div>
-        <div class="text-card"><span class="mndlv-He">Helium (He)</span></div>
+        <div class="element-grid">
+            <!-- Soy Gazlar -->
+            <button class="element-box mndlv-He"><span class="symbol">He</span></button>
+            <button class="element-box mndlv-Ne"><span class="symbol">Ne</span></button>
+            <button class="element-box mndlv-Ar"><span class="symbol">Ar</span></button>
+            <button class="element-box mndlv-Kr"><span class="symbol">Kr</span></button>
+
+            <!-- Değerli Metaller -->
+            <button class="element-box mndlv-Au"><span class="symbol">Au</span></button>
+            <button class="element-box mndlv-Pt"><span class="symbol">Pt</span></button>
+            <button class="element-box mndlv-Ag"><span class="symbol">Ag</span></button>
+            <button class="element-box mndlv-Cu"><span class="symbol">Cu</span></button>
+            <button class="element-box mndlv-Fe"><span class="symbol">Fe</span></button>
+
+            <!-- Radyoaktif Elementler -->
+            <button class="element-box mndlv-U"><span class="symbol">U</span></button>
+            <button class="element-box mndlv-Pu"><span class="symbol">Pu</span></button>
+            <button class="element-box mndlv-Th"><span class="symbol">Th</span></button>
+            <button class="element-box mndlv-Am"><span class="symbol">Am</span></button>
+
+            <!-- Temel Yaşam Elementleri -->
+            <button class="element-box mndlv-H"><span class="symbol">H</span></button>
+            <button class="element-box mndlv-C"><span class="symbol">C</span></button>
+            <button class="element-box mndlv-O"><span class="symbol">O</span></button>
+            <button class="element-box mndlv-N"><span class="symbol">N</span></button>
+            <button class="element-box mndlv-S"><span class="symbol">S</span></button>
+        </div>
+
+        <h3 style="text-align: left; margin-top: 40px;">Quick Integration</h3>
+        <pre><code>&lt;link rel="stylesheet" href="https://jsdelivr.net"&gt;
+
+&lt;div class="mndlv-Au"&gt;This container now has a premium Gold gradient!&lt;/div&gt;</code></pre>
     </div>
 
-    <h2>🪙 Transition Metals (Metallic Gradients)</h2>
-    <div class="grid">
-        <div class="card mndlv-bg-Ti">Titanium (Ti)</div>
-        <div class="card mndlv-bg-Pt">Platinum (Pt)</div>
-        <div class="card mndlv-bg-Au">Gold (Au)</div>
-        <div class="card mndlv-bg-Cu">Copper (Cu)</div>
-        <div class="card mndlv-bg-Bi">Bismuth (Bi)</div>
-    </div>
+    <script>
+        document.querySelectorAll('.element-box').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const elementSymbol = e.target.innerText;
+                const infoDisplay = document.getElementById('info-display');
+                infoDisplay.innerHTML = `🔥 Active Class Hook: <strong style="color:#fff;">.mndlv-${elementSymbol}</strong> initialized successfully!`;
+            });
+        });
+    </script>
 
 </body>
 </html>
