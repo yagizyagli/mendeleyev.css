@@ -1,29 +1,44 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mendeleyev.css — Official Interactive Showcase</title>
+    <title>Mendeleyev.css — Official Interactive Showcase (118 Elements)</title>
     
-    <!-- DOĞRUDAN SENİN JSDELIVR CDN LİNKİN -->
+    <!-- DIRECT JSDELIVR CDN LINK -->
     <link rel="stylesheet" href="https://jsdelivr.net">
     
     <style>
         :root {
-            --bg: #0b1329;
+            --bg-default: #0b1329;
             --surface: #1e293b;
             --border: rgba(255, 255, 255, 0.1);
+            
+            /* Global Background Shift Colors per Group */
+            --color-reactive-nonmetals: #1e3a8a;
+            --color-noble: #2e1065;
+            --color-alkali: #451a03;
+            --color-alkaline-earth: #78350f;
+            --color-transition: #1e293b;
+            --color-post-transition: #064e3b;
+            --color-metalloids: #14532d;
+            --color-lanthanides: #312e81;
+            --color-actinides: #022c22;
         }
+        
         body {
-            background-color: var(--bg);
+            background-color: var(--bg-default);
             color: #f8fafc;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             padding: 60px 20px;
             margin: 0;
             text-align: center;
             -webkit-font-smoothing: antialiased;
+            transition: background-color 0.5s cubic-bezier(0.16, 1, 0.3, 1);
         }
-        .container { max-width: 1000px; margin: 0 auto; }
+        
+        .container { max-width: 1200px; margin: 0 auto; }
         h1 { font-size: 2.8rem; margin-bottom: 8px; font-weight: 800; color: #fff; letter-spacing: -0.025em; }
         p.subtitle { color: #94a3b8; margin-bottom: 20px; font-size: 1.15rem; max-width: 600px; margin-left: auto; margin-right: auto; }
         
@@ -43,44 +58,54 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 24px;
+            gap: 16px;
             margin-bottom: 60px;
         }
 
-        /* Butonların kütüphane renklerini ezmesini engelleyen profesyonel stil */
+        /* Button Core Styles */
         button.element-box {
-            width: 100px;
-            height: 100px;
+            width: 85px;
+            height: 85px;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
             font-weight: bold;
-            border-radius: 16px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
-            border: 1px solid var(--border);
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            border: 1px solid rgba(255,255,255,0.1);
             outline: none;
             cursor: pointer;
-            color: #fff;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
-            background-color: var(--surface); 
             transition: transform 0.1s ease, box-shadow 0.1s ease;
         }
-        
-        /* Kütüphaneden gelen background-image ve özel parlamaları koru */
-        button.element-box[class*="mndlv-"] {
-            background-image: inherit;
-        }
+
+        /* Group Theming (Buttons background color matched with their chemical family) */
+        .group-nonmetal { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+        .group-noble { background: linear-gradient(135deg, #6d28d9, #4c1d95); }
+        .group-alkali { background: linear-gradient(135deg, #b45309, #78350f); }
+        .group-alkaline { background: linear-gradient(135deg, #d97706, #b45309); }
+        .group-transition { background: linear-gradient(135deg, #475569, #334155); }
+        .group-post-transition { background: linear-gradient(135deg, #059669, #047857); }
+        .group-metalloid { background: linear-gradient(135deg, #10b981, #059669); }
+        .group-lanthanide { background: linear-gradient(135deg, #4f46e5, #3730a3); }
+        .group-actinide { background: linear-gradient(135deg, #10b981, #064e3b); border-color: #22c55e; }
         
         button.element-box:hover {
-            transform: scale(1.08);
+            transform: scale(1.12) translateY(-2px);
+            z-index: 10;
         }
         
         button.element-box:active {
             transform: scale(0.95);
-            box-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         
-        .symbol { font-size: 1.8rem; pointer-events: none; }
+        .symbol { 
+            font-size: 1.5rem; 
+            line-height: 1; 
+            pointer-events: none;
+            font-weight: 900;
+            color: #fff;
+        }
         
         pre { background: #111827; color: #f3f4f6; padding: 20px; border-radius: 12px; text-align: left; overflow-x: auto; font-family: monospace; border: 1px solid var(--border); }
     </style>
@@ -88,51 +113,173 @@
 <body>
 
     <div class="container">
-        <h1>Mendeleyev.css 🧪</h1>
-        <p class="subtitle">Because the web deserved a periodic table but gave us tomato. Bring chemical elements, metallic gradients, and radioactive glows directly into your UI with pure CSS.</p>
+        <h1>Mendeleyev.css v3 🧪</h1>
+        <p class="subtitle">Complete Interactive Periodic Table Universe. Bring all 118 chemical elements, premium metallic gradients, and radioactive glows directly into your UI.</p>
         
-        <div id="info-display">Click any element below to test its native library style!</div>
+        <div id="info-display">Click any of the 118 chemical elements below to dynamically warp the page state!</div>
 
         <div class="element-grid">
-            <!-- Soy Gazlar -->
-            <button class="element-box mndlv-He"><span class="symbol">He</span></button>
-            <button class="element-box mndlv-Ne"><span class="symbol">Ne</span></button>
-            <button class="element-box mndlv-Ar"><span class="symbol">Ar</span></button>
-            <button class="element-box mndlv-Kr"><span class="symbol">Kr</span></button>
+            <!-- 118 ELEMENTS GENERATED SEQUENTIALLY -->
+            <!-- Reactive Nonmetals & Hydrogen -->
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-H">H</span></button>
+            
+            <!-- Alkali Metals -->
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-Li">Li</span></button>
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-Na">Na</span></button>
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-K">K</span></button>
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-Rb">Rb</span></button>
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-Cs">Cs</span></button>
+            <button class="element-box group-alkali" data-bg="var(--color-alkali)"><span class="symbol mndlv-Fr">Fr</span></button>
 
-            <!-- Değerli Metaller -->
-            <button class="element-box mndlv-Au"><span class="symbol">Au</span></button>
-            <button class="element-box mndlv-Pt"><span class="symbol">Pt</span></button>
-            <button class="element-box mndlv-Ag"><span class="symbol">Ag</span></button>
-            <button class="element-box mndlv-Cu"><span class="symbol">Cu</span></button>
-            <button class="element-box mndlv-Fe"><span class="symbol">Fe</span></button>
+            <!-- Alkaline Earth Metals -->
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Be">Be</span></button>
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Mg">Mg</span></button>
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Ca">Ca</span></button>
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Sr">Sr</span></button>
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Ba">Ba</span></button>
+            <button class="element-box group-alkaline" data-bg="var(--color-alkaline-earth)"><span class="symbol mndlv-Ra">Ra</span></button>
 
-            <!-- Radyoaktif Elementler -->
-            <button class="element-box mndlv-U"><span class="symbol">U</span></button>
-            <button class="element-box mndlv-Pu"><span class="symbol">Pu</span></button>
-            <button class="element-box mndlv-Th"><span class="symbol">Th</span></button>
-            <button class="element-box mndlv-Am"><span class="symbol">Am</span></button>
+            <!-- Transition Metals (Including Gold, Platinum, Iron etc) -->
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Sc">Sc</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ti">Ti</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-V">V</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Cr">Cr</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Mn">Mn</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Fe">Fe</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Co">Co</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ni">Ni</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Cu">Cu</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Zn">Zn</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Y">Y</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Zr">Zr</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Nb">Nb</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Mo">Mo</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Tc">Tc</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ru">Ru</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Rh">Rh</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Pd">Pd</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ag">Ag</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Cd">Cd</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Hf">Hf</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ta">Ta</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-W">W</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Re">Re</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Os">Os</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ir">Ir</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Pt">Pt</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Au">Au</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Hg">Hg</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Rf">Rf</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Db">Db</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Sg">Sg</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Bh">Bh</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Hs">Hs</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Mt">Mt</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Ds">Ds</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Rg">Rg</span></button>
+            <button class="element-box group-transition" data-bg="var(--color-transition)"><span class="symbol mndlv-Cn">Cn</span></button>
 
-            <!-- Temel Yaşam Elementleri -->
-            <button class="element-box mndlv-H"><span class="symbol">H</span></button>
-            <button class="element-box mndlv-C"><span class="symbol">C</span></button>
-            <button class="element-box mndlv-O"><span class="symbol">O</span></button>
-            <button class="element-box mndlv-N"><span class="symbol">N</span></button>
-            <button class="element-box mndlv-S"><span class="symbol">S</span></button>
+            <!-- Post-Transition Metals -->
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Al">Al</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Ga">Ga</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-In">In</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Sn">Sn</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Tl">Tl</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Pb">Pb</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Bi">Bi</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Nh">Nh</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Fl">Fl</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Mc">Mc</span></button>
+            <button class="element-box group-post-transition" data-bg="var(--color-post-transition)"><span class="symbol mndlv-Lv">Lv</span></button>
+
+            <!-- Metalloids -->
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-B">B</span></button>
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-Si">Si</span></button>
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-Ge">Ge</span></button>
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-As">As</span></button>
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-Sb">Sb</span></button>
+            <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-Te">Te</span></button>
+
+    <button class="element-box group-metalloid" data-bg="var(--color-metalloids)"><span class="symbol mndlv-Po">Po</span></button>
+
+            <!-- Reactive Nonmetals (Life Elements & Halogens) -->
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-C">C</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-N">N</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-O">O</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-F">F</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-P">P</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-S">S</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-Cl">Cl</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-Se">Se</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-Br">Br</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-I">I</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-At">At</span></button>
+            <button class="element-box group-nonmetal" data-bg="var(--color-reactive-nonmetals)"><span class="symbol mndlv-Ts">Ts</span></button>
+
+            <!-- Noble Gases -->
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-He">He</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Ne">Ne</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Ar">Ar</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Kr">Kr</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Xe">Xe</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Rn">Rn</span></button>
+            <button class="element-box group-noble" data-bg="var(--color-noble)"><span class="symbol mndlv-Og">Og</span></button>
+
+            <!-- Lanthanides -->
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-La">La</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Ce">Ce</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Pr">Pr</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Nd">Nd</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Pm">Pm</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Sm">Sm</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Eu">Eu</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Gd">Gd</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Tb">Tb</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Dy">Dy</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Ho">Ho</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Er">Er</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Tm">Tm</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Yb">Yb</span></button>
+            <button class="element-box group-lanthanide" data-bg="var(--color-lanthanides)"><span class="symbol mndlv-Lu">Lu</span></button>
+
+            <!-- Actinides (Radioactive Heavyweights) -->
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Ac">Ac</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Th">Th</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Pa">Pa</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-U">U</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Np">Np</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Pu">Pu</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Am">Am</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Cm">Cm</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Bk">Bk</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Cf">Cf</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Es">Es</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Fm">Fm</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Md">Md</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-No">No</span></button>
+            <button class="element-box group-actinide" data-bg="var(--color-actinides)"><span class="symbol mndlv-Lr">Lr</span></button>
         </div>
 
         <h3 style="text-align: left; margin-top: 40px;">Quick Integration</h3>
         <pre><code>&lt;link rel="stylesheet" href="https://jsdelivr.net"&gt;
 
-&lt;div class="mndlv-Au"&gt;This container now has a premium Gold gradient!&lt;/div&gt;</code></pre>
+&lt;span class="mndlv-U"&gt;This text now has a radioactive glow!&lt;/span&gt;</code></pre>
     </div>
 
+    <!-- INTERACTIVE BACKGROUND SHIFTING SCRIPT -->
     <script>
         document.querySelectorAll('.element-box').forEach(button => {
             button.addEventListener('click', (e) => {
-                const elementSymbol = e.target.innerText;
+                const symbolSpan = button.querySelector('.symbol');
+                const elementSymbol = symbolSpan.innerText;
                 const infoDisplay = document.getElementById('info-display');
-                infoDisplay.innerHTML = `🔥 Active Class Hook: <strong style="color:#fff;">.mndlv-${elementSymbol}</strong> initialized successfully!`;
+                
+                // Update interactive header text
+                infoDisplay.innerHTML = `🔥 Active Class Hook: <strong style="color:#38bdf8;">.mndlv-${elementSymbol}</strong> triggered successfully!`;
+                
+                // Warp global screen background state
+                const targetBgColor = button.getAttribute('data-bg');
+                document.body.style.backgroundColor = targetBgColor;
             });
         });
     </script>
