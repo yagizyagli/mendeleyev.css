@@ -1,6 +1,6 @@
 # 🧪 Mendeleyev.css v3.0.0 (The Clean Cascade Edition)
 
-## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](https://github.io)
+## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](yagizyagli.github.io/mendeleyev.css/)
 
 A modern, comprehensive, and **cascade-friendly** CSS utility library that brings all **118 Elements of the Periodic Table** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `titanium`, `uranium`, or `platinum`.
 
