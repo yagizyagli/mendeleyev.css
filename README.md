@@ -1,6 +1,6 @@
 # 🧪 Mendeleyev.css v3.0.0 (The Clean Cascade Edition)
 
-## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀]
+## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](https://yagizyagli.github.io/mendeleyev.css/)
 (https://yagizyagli.github.io/mendeleyev.css/)
 [https://yagizyagli.github.io/mendeleyev.css/]
 
