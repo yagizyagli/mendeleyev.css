@@ -1,0 +1,118 @@
+Symbol,Element,Group,Hex
+H,Hydrogen,Alkali Metals,#ffffff
+Li,Lithium,Alkali Metals,#ffab91
+Na,Sodium,Alkali Metals,#ff8a65
+K,Potassium,Alkali Metals,#ff7043
+Rb,Rubidium,Alkali Metals,#ff5722
+Cs,Cesium,Alkali Metals,#f4511e
+Fr,Francium,Alkali Metals,#d84315
+Be,Beryllium,Alkaline Earth,#fff59d
+Mg,Magnesium,Alkaline Earth,#fff176
+Ca,Calcium,Alkaline Earth,#ffee58
+Sr,Strontium,Alkaline Earth,#ffeb3b
+Ba,Barium,Alkaline Earth,#fdd835
+Ra,Radium,Alkaline Earth,#fbc02d
+Sc,Scandium,Transition Metals,#e0e0e0
+Ti,Titanium,Transition Metals,#f5f7fa
+V,Vanadium,Transition Metals,#cfd8dc
+Cr,Chromium,Transition Metals,#ffffff
+Mn,Manganese,Transition Metals,#eceff1
+Fe,Iron,Transition Metals,#757575
+Co,Cobalt,Transition Metals,#b3e5fc
+Ni,Nickel,Transition Metals,#ded6c5
+Cu,Copper,Transition Metals,#e59866
+Zn,Zinc,Transition Metals,#d6dbdf
+Y,Yttrium,Transition Metals,#eaeded
+Zr,Zirconium,Transition Metals,#f4f6f7
+Nb,Niobium,Transition Metals,#ebf5fb
+Mo,Molybdenum,Transition Metals,#e5e8e8
+Tc,Technetium,Transition Metals,#d5dbdb
+Ru,Ruthenium,Transition Metals,#ebedef
+Rh,Rhodium,Transition Metals,#f2f3f4
+Pd,Palladium,Transition Metals,#f8f9f9
+Ag,Silver,Transition Metals,#ffffff
+Cd,Cadmium,Transition Metals,#eaecee
+Hf,Hafnium,Transition Metals,#f4f6f6
+Ta,Tantalum,Transition Metals,#fdfefe
+W,Tungsten,Transition Metals,#566573
+Re,Rhenium,Transition Metals,#f2f4f4
+Os,Osmium,Transition Metals,#ebf5fb
+Ir,Iridium,Transition Metals,#f7f9f9
+Pt,Platinum,Transition Metals,#ffffff
+Au,Gold,Transition Metals,#bf953f
+Hg,Mercury,Transition Metals,#eceff1
+Rf,Rutherfordium,Transition Metals,#212121
+Db,Dubnium,Transition Metals,#212121
+Sg,Seaborgium,Transition Metals,#212121
+Bh,Bohrium,Transition Metals,#212121
+Hs,Hassium,Transition Metals,#212121
+Mt,Meitnerium,Transition Metals,#212121
+Ds,Darmstadtium,Transition Metals,#212121
+Rg,Roentgenium,Transition Metals,#212121
+Cn,Copernicium,Transition Metals,#212121
+B,Boron,Non-metals & Metalloids,#ffeb3b
+C,Carbon,Non-metals & Metalloids,#1a1a1a
+N,Nitrogen,Non-metals & Metalloids,#90caf9
+O,Oxygen,Non-metals & Metalloids,#bbdefb
+F,Fluorine,Non-metals & Metalloids,#a7ffeb
+Si,Silicon,Non-metals & Metalloids,#b0bec5
+P,Phosphorus,Non-metals & Metalloids,#e8f5e9
+S,Sulfur,Non-metals & Metalloids,#ffff33
+Cl,Chlorine,Non-metals & Metalloids,#d4e6a5
+As,Alteric,Non-metals & Metalloids,#d5f5e3
+Se,Selenium,Non-metals & Metalloids,#edbb99
+Br,Bromine,Non-metals & Metalloids,#7b241c
+Te,Tellurium,Non-metals & Metalloids,#f9e79f
+I,Iodine,Non-metals & Metalloids,#4a235a
+At,Astatine,Non-metals & Metalloids,#5b2c6f
+Al,Aluminum,Weak Metals,#d5dbdb
+Ga,Gallium,Weak Metals,#a9dfbf
+Ge,Germanium,Weak Metals,#f5cbf7
+In,Indium,Weak Metals,#f9ebd2
+Sn,Tin,Weak Metals,#d7dbdd
+Sb,Antimony,Weak Metals,#fadbd8
+Tl,Thallium,Weak Metals,#e8daef
+Pb,Lead,Weak Metals,#566573
+Bi,Bismuth,Weak Metals,#ff8a80
+Nh,Nihonium,Weak Metals,#e5e7e9
+Fl,Flerovium,Weak Metals,#e5e7e9
+Mc,Moscovium,Weak Metals,#e5e7e9
+Lv,Livermoryum,Weak Metals,#e5e7e9
+Ts,Tennessine,Weak Metals,#e5e7e9
+He,Helium,Noble Gases,#ffb300
+Ne,Neon,Noble Gases,#ff3333
+Ar,Argon,Noble Gases,#e040fb
+Kr,Krypton,Noble Gases,#ffff00
+Xe,Xenon,Noble Gases,#e0f7fa
+Rn,Radon,Noble Gases,#eceff1
+Og,Oganesson,Noble Gases,#d5dbdb
+La,Lanthanum,Lanthanides,#f4ecf7
+Ce,Cerium,Lanthanides,#f5eeeb
+Pr,Praseodymium,Lanthanides,#ebf5fb
+Nd,Neodymium,Lanthanides,#e8f8f5
+Pm,Promethium,Lanthanides,#eaf2f8
+Sm,Samarium,Lanthanides,#fef9e7
+Eu,Europium,Lanthanides,#fdf2e9
+Gd,Gadolinium,Lanthanides,#f4f6f7
+Tb,Terbium,Lanthanides,#fdfefe
+Dy,Dysprosium,Lanthanides,#f2f4f4
+Ho,Holmium,Lanthanides,#fcf3cf
+Er,Erbium,Lanthanides,#fadbd8
+Tm,Thulium,Lanthanides,#e8daef
+Yb,Ytterbium,Lanthanides,#d5f5e3
+Lu,Lutetium,Lanthanides,#eaf2f8
+Ac,Actinium,Actinides,#e5e7e9
+Th,Thorium,Actinides,#ff9100
+Pa,Protactinium,Actinides,#b2babb
+U,Uranium,Actinides,#39ff14
+Np,Neptunium,Actinides,#a6acaf
+Pu,Plutonium,Actinides,#00ff66
+Am,Americium,Actinides,#95a5a6
+Cm,Curium,Actinides,#7f8c8d
+Bk,Berkelium,Actinides,#bdc3c7
+Cf,Californium,Actinides,#cacfd2
+Es,Einsteinium,Actinides,#d7dbdd
+Fm,Fermium,Actinides,#f2f3f4
+Md,Mendelevium,Actinides,#ffffff
+No,Nobelium,Actinides,#f8f9f9
+Lr,Lawrencium,Actinides,#ebedef
