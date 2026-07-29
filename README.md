@@ -1,85 +1,60 @@
-# 🧪 Mendeleyev.css v3.0.0 (The Clean Cascade Edition)
+# 🧪 Mendeleev.css v3.0.0 (The Complete Elemental Design System)
 
 ## 🔗 [👉 Live Preview / Canlı Önizleme Linki 🚀](https://yagizyagli.github.io/mendeleyev.css/)
-(https://yagizyagli.github.io/mendeleyev.css/)
-[https://yagizyagli.github.io/mendeleyev.css/]
 
-A modern, comprehensive, and **cascade-friendly** CSS utility library that brings all **118 Elements of the Periodic Table** into web development. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `titanium`, `uranium`, or `platinum`.
+A comprehensive, cross-platform design system that brings all **118 Elements of the Periodic Table** to modern web development, graphic design, and data analytics. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `uranium`, `titanium`, or `platinum`.
 
----
+
 
 ## ⚡ What's New in v3.0.0?
-*   🚫 **Zero `!important` Tags:** Completely refactored to respect CSS specificity rules. You can now override element colors smoothly in your custom stylesheets.
-*   🎯 **Attribute Matching Selectors:** Shifted to dynamic attribute matching `[class*="mndlv-"]` to boost selector score while maintaining native CSS hierarchy.
-*   🌐 **GitHub Pages Live Showcase:** Real-time visual demo added so you can check out neon glows and gradients instantly.
+* 🚫 **Zero `!important` Tags:** Fully refactored to respect CSS cascade and specificity hierarchy.
+* 🔌 **Tailwind CSS Plugin:** 118 elements native support inside Tailwind configurations.
+* 🎨 **Adobe Swatches Palette:** 118 elements complete RGB profiles for Photoshop & Illustrator.
+* 📊 **Microsoft Excel Theme:** 12 elemental group color tokens for corporate spreadsheet designs.
+* 🌐 **Live Demo Showcase:** Real-time visualization platform deployed via GitHub Pages.
 
 ---
 
-## 🚀 How to Use (Nasıl Kullanılır?)
+## 🚀 Web Integration & Installation (Web Entegrasyonu)
 
-You can easily implement this library into your web projects via the methods below:
-
-### Method 1: Direct CDN Link (En Hızlı Yöntem)
+### Method 1: Pure CSS via Direct CDN Link (En Hızlı Yöntem)
 Simply add this single line inside the `<head>` tag of your HTML file:
 ```html
 <link rel="stylesheet" href="https://jsdelivr.net">
 ```
 
-### Method 2: Manual Setup (Manuel Yükleme)
-1. Download the `mendeleyev.css` file from this repository.
-2. Link it inside your HTML directory:
+### Method 2: Tailwind CSS Plugin (Tailwind Entegrasyonu)
+1. Copy the `tailwind-plugin.js` file into your project's root folder.
+2. Inject it into your official `tailwind.config.js` script:
+```javascript
+module.exports = {
+  theme: {
+    extend: {},
+  },
+  plugins: [
+    require('./tailwind-plugin.js'),
+  ],
+}
+```
+3. Use dynamic atomic utility classes straight in your markup:
 ```html
-<link rel="stylesheet" href="path/to/mendeleyev.css">
+<h1 class="text-mndlv-U">Glowing Uranium Reactor</h1>
+<div class="bg-mndlv-bg-Au">Premium Gold Layout</div>
 ```
 
----
+## 🎨 Enterprise Ecosystem Integrations## For Graphic Designers (Adobe Photoshop & Illustrator)
 
-## 🎨 Creative Code Examples (Kod Örnekleri)
+   1. Download the mendeleyev-adobe.xml file from this repository.
+   2. Open Photoshop or Illustrator, navigate to your Swatches Panel, and import the file. You will instantly unlock the exact RGB profiles for all 118 elements as ready-to-use digital color swatches.
 
-### 1. Radioactive Glowing Elements (Parlayan Neon Metin Efektleri)
-```html
-<!-- Glows in bright neon green -->
-<h1 class="mndlv-U">Hazardous Uranium Content</h1>
+## For Data Analysts (Microsoft Excel & PowerPoint)
 
-<!-- Glows in bright neon emerald green -->
-<div class="mndlv-Pu">Plutonium Reactor Core</div>
+   1. Download the mendeleyev-excel.xml file from this repository.
+   2. Move the downloaded file into your local Microsoft Office themes folder at: %appdata%\Microsoft\Templates\Document Themes\Theme Colors
+   3. Open Microsoft Excel or PowerPoint, go to the Page Layout tab, click Colors, and choose Mendeleev Ultimate Chemistry. Your data charts, visualization tools, and spreadsheets will automatically adapt to the official elemental group colors.
 
-<!-- Glows in vibrant noble gas red -->
-<p class="mndlv-Ne">Live Server Stream Active</p>
-```
-
-### 2. Realistic Metallic Gradients (Metalik Arka Planlar)
-```html
-<!-- Premium titanium gradient background -->
-<div class="mndlv-bg-Ti">Titanium Membership Plan</div>
-
-<!-- High-end luxury gold gradient background -->
-<button class="mndlv-bg-Au">Buy Premium Gold Edition</button>
-
-<!-- Legendary rainbow bismuth gradient background -->
-<span class="mndlv-bg-Bi">Rare Artifact</span>
-```
-
----
-
-## 🔬 Periodic Table Group Classes (Tüm Element Grupları)
-
-Every class name uses official chemical symbols for code weight efficiency and lightning-fast implementation:
-
-*   **Alkali Metals (1A Group):** `.mndlv-H`, `.mndlv-Li`, `.mndlv-Na`, `.mndlv-K`, `.mndlv-Rb`, `.mndlv-Cs`, `.mndlv-Fr`
-*   **Alkaline Earth Metals (2A Group):** `.mndlv-Be`, `.mndlv-Mg`, `.mndlv-Ca`, `.mndlv-Sr`, `.mndlv-Ba`, `.mndlv-Ra`
-*   **Transition Metals (Gradients):** From Titanium `.mndlv-bg-Ti` and Gold `.mndlv-bg-Au` to liquid Mercury `.mndlv-bg-Hg` (38 elements total)
-*   **Noble Gases (Neon Glows):** `.mndlv-He`, `.mndlv-Ne`, `.mndlv-Ar`, `.mndlv-Kr`, `.mndlv-Xe`, `.mndlv-Rn`, `.mndlv-Og`
-*   **Lanthanides & Actinides (Heavy Glows):** Rare earth elements including Uranium `.mndlv-U` and Plutonium `.mndlv-Pu`
-*   **Non-Metals & Metalloids:** Carbon `.mndlv-C`, Sulfur `.mndlv-S`, Silicon `.mndlv-Si` and other organic building blocks.
-
----
-
-## 🤝 Contributing & Feedback
-This is an open-source monument built for frontend developers and web designers who appreciate chemistry and clean UI architecture. Feel free to fork, propose improvements to gradients, or suggest additional effects via Pull Requests!
-
-*"Because the web deserved Mendeleyev, but gave us tomato instead."* 🍅🧪
-
-**Star ⭐️ this repository if you believe the web standards should be more scientific!**
-
-Created with passion by [yagizyagli](https://github.com). Open-source forever. 🚀
+## 🤝 Contributing & License
+This is a comprehensive cross-platform monument built for engineers, visual artists, and data analysts who appreciate science and robust UI architecture. Feel free to fork, suggest better gradient stops, or submit professional Pull Requests!
+Because the web deserved Mendeleev, but gave us tomato instead. 🍅🧪
+Star this repository if you believe engineering standards should be more scientific!
+Created with passion by yagizyagli. Open-source forever. MIT License.
