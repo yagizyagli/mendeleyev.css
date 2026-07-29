@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mendeleev Complete Swatch Palette for Adobe Photoshop & Illustrator (118 Elements) -->
+<colorPalette name="Mendeleev Complete Elements">
+    <!-- Alkali Metals -->
+    <color name="H - Hydrogen" space="RGB" r="255" g="255" b="255"/>
+    <color name="Li - Lithium" space="RGB" r="255" g="171" b="145"/>
+    <color name="Na - Sodium" space="RGB" r="255" g="138" b="101"/>
+    <color name="K - Potassium" space="RGB" r="255" g="112" b="67"/>
+    <color name="Rb - Rubidium" space="RGB" r="255" g="87" b="34"/>
+    <color name="Cs - Cesium" space="RGB" r="244" g="81" b="30"/>
+    <color name="Fr - Francium" space="RGB" r="216" g="67" b="21"/>
+    <!-- Alkaline Earth Metals -->
+    <color name="Be - Beryllium" space="RGB" r="255" g="245" b="157"/>
+    <color name="Mg - Magnesium" space="RGB" r="255" g="241" b="118"/>
+    <color name="Ca - Calcium" space="RGB" r="255" g="238" b="88"/>
+    <color name="Sr - Strontium" space="RGB" r="255" g="235" b="59"/>
+    <color name="Ba - Barium" space="RGB" r="253" g="216" b="53"/>
+    <color name="Ra - Radium" space="RGB" r="251" g="192" b="45"/>
+    <!-- Transition Metals -->
+    <color name="Sc - Scandium" space="RGB" r="224" g="224" b="224"/>
+    <color name="Ti - Titanium" space="RGB" r="245" g="247" b="250"/>
+    <color name="V - Vanadium" space="RGB" r="207" g="216" b="220"/>
+    <color name="Cr - Chromium" space="RGB" r="255" g="255" b="255"/>
+    <color name="Mn - Manganese" space="RGB" r="236" g="239" b="241"/>
+    <color name="Fe - Iron" space="RGB" r="117" g="117" b="117"/>
+    <color name="Co - Cobalt" space="RGB" r="179" g="229" b="252"/>
+    <color name="Ni - Nickel" space="RGB" r="222" g="214" b="197"/>
+    <color name="Cu - Copper" space="RGB" r="229" g="152" b="102"/>
+    <color name="Zn - Zinc" space="RGB" r="214" g="219" b="223"/>
+    <color name="Y - Yttrium" space="RGB" r="234" g="237" b="237"/>
+    <color name="Zr - Zirconium" space="RGB" r="244" g="246" b="247"/>
+    <color name="Nb - Niobium" space="RGB" r="235" g="245" b="251"/>
+    <color name="Mo - Molybdenum" space="RGB" r="229" g="232" b="232"/>
+    <color name="Tc - Technetium" space="RGB" r="213" g="219" b="219"/>
+    <color name="Ru - Ruthenium" space="RGB" r="235" g="237" b="239"/>
+    <color name="Rh - Rhodium" space="RGB" r="242" g="243" b="244"/>
+    <color name="Pd - Palladium" space="RGB" r="248" g="249" b="249"/>
+    <color name="Ag - Silver" space="RGB" r="255" g="255" b="255"/>
+    <color name="Cd - Cadmium" space="RGB" r="234" g="236" b="238"/>
+    <color name="Hf - Hafnium" space="RGB" r="244" g="246" b="246"/>
+    <color name="Ta - Tantalum" space="RGB" r="253" g="254" b="254"/>
+    <color name="W - Tungsten" space="RGB" r="86" g="101" b="115"/>
+    <color name="Re - Rhenium" space="RGB" r="242" g="244" b="244"/>
+    <color name="Os - Osmium" space="RGB" r="235" g="245" b="251"/>
+    <color name="Ir - Iridium" space="RGB" r="247" g="249" b="249"/>
+    <color name="Pt - Platinum" space="RGB" r="255" g="255" b="255"/>
+    <color name="Au - Gold" space="RGB" r="191" g="149" b="63"/>
+    <color name="Hg - Mercury" space="RGB" r="236" g="239" b="241"/>
+    <color name="Rf - Rutherfordium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Db - Dubnium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Sg - Seaborgium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Bh - Bohrium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Hs - Hassium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Mt - Meitnerium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Ds - Darmstadtium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Rg - Roentgenium" space="RGB" r="33" g="33" b="33"/>
+    <color name="Cn - Copernicium" space="RGB" r="33" g="33" b="33"/>
+    <!-- Non-metals & Metalloids -->
+    <color name="B - Boron" space="RGB" r="255" g="235" b="59"/>
+    <color name="C - Carbon" space="RGB" r="26" g="26" b="26"/>
+    <color name="N - Nitrogen" space="RGB" r="144" g="202" b="249"/>
+    <color name="O - Oxygen" space="RGB" r="187" g="222" b="251"/>
+    <color name="F - Fluorine" space="RGB" r="167" g="255" b="235"/>
+    <color name="Si - Silicon" space="RGB" r="176" g="190" b="197"/>
+    <color name="P - Phosphorus" space="RGB" r="232" g="245" b="233"/>
+    <color name="S - Sulfur" space="RGB" r="255" g="255" b="51"/>
+    <color name="Cl - Chlorine" space="RGB" r="212" g="230" b="165"/>
+    <color name="As - Arsenic" space="RGB" r="213" g="245" b="227"/>
+    <color name="Se - Selenium" space="RGB" r="237" g="187" b="153"/>
+    <color name="Br - Bromine" space="RGB" r="123" g="36" b="28"/>
+    <color name="Te - Tellurium" space="RGB" r="249" g="231" b="159"/>
+    <color name="I - Iodine" space="RGB" r="74" g="35" b="90"/>
+    <color name="At - Astatine" space="RGB" r="91" g="44" b="111"/>
+    <!-- Weak Metals -->
+    <color name="Al - Aluminum" space="RGB" r="213" g="219" b="219"/>
+    <color name="Ga - Gallium" space="RGB" r="169" g="223" b="191"/>
+    <color name="Ge - Germanium" space="RGB" r="245" g="203" b="247"/>
+    <color name="In - Indium" space="RGB" r="249" g="235" b="210"/>
+    <color name="Sn - Tin" space="RGB" r="215" g="219" b="221"/>
+    <color name="Sb - Antimony" space="RGB" r="250" g="219" b="216"/>
+    <color name="Tl - Thallium" space="RGB" r="232" g="218" b="239"/>
+    <color name="Pb - Lead" space="RGB" r="86" g="101" b="115"/>
+    <color name="Bi - Bismuth" space="RGB" r="255" g="138" b="128"/>
+    <color name="Nh - Nihonium" space="RGB" r="229" g="231" b="233"/>
+    <color name="Fl - Flerovium" space="RGB" r="229" g="231" b="233"/>
+    <color name="Mc - Moscovium" space="RGB" r="229" g="231" b="233"/>
+    <color name="Lv - Livermoryum" space="RGB" r="229" g="231" b="233"/>
+    <color name="Ts - Tennessine" space="RGB" r="229" g="231" b="233"/>
+    <!-- Noble Gases -->
+    <color name="He - Helium" space="RGB" r="255" g="179" b="0"/>
+    <color name="Ne - Neon" space="RGB" r="255" g="51" b="51"/>
+    <color name="Ar - Argon" space="RGB" r="224" g="64" b="251"/>
+    <color name="Kr - Krypton" space="RGB" r="255" g="255" b="0"/>
+    <color name="Xe - Xenon" space="RGB" r="224" g="247" b="250"/>
+    <color name="Rn - Radon" space="RGB" r="236" g="239" b="241"/>
+    <color name="Og - Oganesson" space="RGB" r="213" g="219" b="219"/>
+    <!-- Lanthanides -->
+    <color name="La - Lanthanum" space="RGB" r="244" g="236" b="247"/>
+    <color name="Ce - Cerium" space="RGB" r="245" g="238" b="235"/>
+    <color name="Pr - Praseodymium" space="RGB" r="235" g="245" b="251"/>
+    <color name="Nd - Neodymium" space="RGB" r="232" g="248" b="245"/>
+    <color name="Pm - Promethium" space="RGB" r="234" g="242" b="248"/>
+    <color name="Sm - Samarium" space="RGB" r="254" g="249" b="231"/>
+    <color name="Eu - Europium" space="RGB" r="253" g="242" b="233"/>
+    <color name="Gd - Gadolinium" space="RGB" r="244" g="246" b="247"/>
+    <color name="Tb - Terbium" space="RGB" r="253" g="254" b="254"/>
+    <color name="Dy - Dysprosium" space="RGB" r="242" g="244" b="244"/>
+    <color name="Ho - Holmium" space="RGB" r="252" g="243" b="207"/>
+    <color name="Er - Erbium" space="RGB" r="250" g="219" b="216"/>
+    <color name="Tm - Thulium" space="RGB" r="232" g="218" b="239"/>
+    <color name="Yb - Ytterbium" space="RGB" r="213" g="245" b="227"/>
+    <color name="Lu - Lutetium" space="RGB" r="234" g="242" b="248"/>
+    <!-- Actinides -->
+    <color name="Ac - Actinium" space="RGB" r="229" g="231" b="233"/>
+    <color name="Th - Thorium" space="RGB" r="255" g="145" b="0"/>
+    <color name="Pa - Protactinium" space="RGB" r="178" g="186" b="188"/>
+    <color name="U - Uranium" space="RGB" r="59" g="255" b="20"/>
+    <color name="Np - Neptunium" space="RGB" r="166" g="172" b="175"/>
+    <color name="Pu - Plutonium" space="RGB" r="0" g="255" b="102"/>
+    <color name="Am - Americium" space="RGB" r="149" g="165" b="166"/>
+    <color name="Cm - Curium" space="RGB" r="127" g="140" b="141"/>
+    <color name="Bk - Berkelium" space="RGB" r="189" g="195" b="199"/>
+    <color name="Cf - Californium" space="RGB" r="202" g="207" b="210"/>
+    <color name="Es - Einsteinium" space="RGB" r="215" g="219" b="221"/>
+    <color name="Fm - Fermium" space="RGB" r="242" g="243" b="244"/>
+    <color name="Md - Mendelevium" space="RGB" r="255" g="255" b="255"/>
+    <color name="No - Nobelium" space="RGB" r="248" g="249" b="249"/>
+    <color name="Lr - Lawrencium" space="RGB" r="235" g="237" b="239"/>
+</colorPalette>
