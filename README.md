@@ -1,6 +1,6 @@
 # 🧪 Mendeleev.css v3.0.0 (The Complete Elemental Design System)
 
-## 🔗 [👉 Live Preview 🚀](https://yagizyagli.github.io/mendeleyev.css/)
+## 🔗 [👉 Live Preview  🚀](https://yagizyagli.github.io/mendeleyev.css/)
 
 A comprehensive, cross-platform design system that brings all **118 Elements of the Periodic Table** to modern web development, graphic design, and data analytics. Inspired by the fact that HTML has `color: tomato` but lacks fundamental scientific elements like `uranium`, `titanium`, or `platinum`.
 
@@ -15,7 +15,7 @@ A comprehensive, cross-platform design system that brings all **118 Elements of 
 
 ---
 
-## 🚀 Web Integration & Installation (Web Entegrasyonu)
+## 🚀 Web Integration & Installation
 
 ### Method 1: Pure CSS via Direct CDN Link (En Hızlı Yöntem)
 Simply add this single line inside the `<head>` tag of your HTML file:
