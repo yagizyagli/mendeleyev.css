@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Microsoft Excel & Office Theme Colors (12 Ultimate Elemental Focus Groups) -->
-<a:clrScheme xmlns:a="http://openxmlformats.org" name="Mendeleev Ultimate Chemistry">
+<a:clrScheme xmlns:a="http://openxmlformats.org" name="Mendeleyev Ultimate Chemistry">
     <a:dk1><a:sysClr val="windowText" lastClr="000000"/></a:dk1>
     <a:lt1><a:sysClr val="window" lastClr="FFFFFF"/></a:lt1>
     <a:dk2><a:srgbClr val="1A1A1A"/></a:dk2> <!-- Carbon Group (Text Dark) -->
