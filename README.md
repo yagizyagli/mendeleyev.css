@@ -49,7 +49,7 @@ module.exports = {
 
 ## For Data Analysts (Microsoft Excel & PowerPoint)
 
-   1. Download the mendeleyev-excel.xml file from this repository.
+   1. Download the `mendeleyev-table.csv` template to import all 118 elements with their exact chemical hexadecimal color profiles straight into Excel.
    2. Move the downloaded file into your local Microsoft Office themes folder at: %appdata%\Microsoft\Templates\Document Themes\Theme Colors
    3. Open Microsoft Excel or PowerPoint, go to the Page Layout tab, click Colors, and choose Mendeleev Ultimate Chemistry. Your data charts, visualization tools, and spreadsheets will automatically adapt to the official elemental group colors.
 
