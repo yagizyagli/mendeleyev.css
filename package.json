@@ -15,10 +15,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com"
+    "url": "git+https://github.com/yagizyagli/mendeleyev.css"
   },
   "bugs": {
-    "url": "https://github.com"
+    "url": "https://github.com/yagizyagli/mendeleyev.css"
   },
-  "homepage": "https://github.io"
+  "homepage": "https://yagizyagli.github.io/mendeleyev.css/"
 }
