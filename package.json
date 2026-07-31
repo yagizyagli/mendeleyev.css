@@ -3,6 +3,10 @@
   "version": "3.0.0",
   "description": "A comprehensive CSS design system bringing all 118 elements of the Periodic Table to modern web development.",
   "main": "mendeleyev.css",
+  "exports": {
+    ".": "./mendeleyev.css",
+    "./js": "./mendeleyev.js"
+  },
   "keywords": [
     "css",
     "tailwindcss",
